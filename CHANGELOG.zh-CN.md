@@ -14,6 +14,17 @@ toc: false
 
 ---
 
+### 3.0.4
+
+`2018-12-28`
+
+- 修改`SegmentedControl`默认颜色为主题颜色 [#211](https://github.com/ant-design/ant-design-mobile-rn/pull/211)
+- 允许覆盖`Tabs` `tabBarUnderlineStyle`
+- 完善`SwipeAction` TypeScript类型定义 [#230](https://github.com/ant-design/ant-design-mobile-rn/pull/230)
+- 完善 `Grid` 文档，修改`onClick`属性为`onPress` [#234](https://github.com/ant-design/ant-design-mobile-rn/pull/234)
+- 修复`Modal`循环引用警告 [#242](https://github.com/ant-design/ant-design-mobile-rn/pull/242)
+
+
 ### 3.0.0
 
 `2018-12-15`
@@ -30,6 +41,7 @@ toc: false
 - 完善文档，使用 codesandbox 以及 react-native-web 提供部分组件在线预览
 - 重构 Icon 组件，现在使用 [ant-design-icons](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-react-native)
 - Toast 移除了 `hide` 方法
+- 修改`Grid`的`onClick`属性为`onPress`
 - 更多组件优化以及使用方式请查看文档
 - 从 2.x 升级到 3.0.0 请查看[upgrade notes](https://rn.mobile.ant.design/docs/react/upgrade-notes-cn)
 
